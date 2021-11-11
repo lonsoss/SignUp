@@ -46,7 +46,7 @@ input:not(.checkbox, .signin){
     background-color: #eeeeee;
     border-radius: 12px;
     padding: 6px;
-    margin: 7px 0 15px;
+    margin: 7px 0 10px;
 }
 input:not(.checkbox, .signin){
     border: solid 1px #eeeeee;
