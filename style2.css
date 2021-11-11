@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f5f5f5;
+    font-family: 'Quicksand', sans-serif;
+}
+.big_box{
+    width: 750px;
+    background-color: #c5206d;
+    margin: 150px auto 0;
+    border-radius: 6px 5px 5px 6px;
+    padding-bottom: 60px;
+}
+.box1{
+    width: 50%;
+    float: left;
+    background-color: white;
+    padding: 40px 35px 48px;
+    border-radius: 5px 0px 0px 5px;
+}
+.box2{
+    text-align: center;
+    height: 300px;
+    padding-top: 18%;
+    color: white;
+}
+.box2 h1,h5{
+    margin-bottom: 15px;
+}
+.box2 a{
+    text-decoration: none;
+    color: white;
+    border: solid 1px white;
+    padding: 3px 20px 6px;
+    border-radius: 4px;
+}
+.box2 a:hover{
+    background-color: white;
+    color: #c5206d;
+}
+input:not(.checkbox, .signin){
+    width: 100%;
+    background-color: #eeeeee;
+    border-radius: 12px;
+    padding: 6px;
+    margin: 7px 0 15px;
+}
+input:not(.checkbox, .signin){
+    border: solid 1px #eeeeee;
+}  
+h2{
+    display: inline-flex;
+    color: gray;
+}
+img{
+    width: 30px;
+    margin-right: 10px;
+    border-radius: 50%;
+    box-shadow: 0.05px 0.05px 3px 0.05px;
+}
+img:hover{
+    box-shadow: 0.05px 0.05px 6px 0.05px;
+}
+.main{
+    margin-bottom: 25px;
+}
+.main div{
+    float: right;
+}
+.signin{
+    background-color: #c5206d;
+    border: solid 1px #c5206d;
+    color: white;
+    width: 100%;
+    border-radius: 12px;
+    padding: 7px;
+    margin: 7px 0 25px;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+span{
+    color: #c5206d;
+    margin-right: 60px;
+    font-size: 13px;
+    font-weight: 600;
+}
+form div a{
+    float: right;
+    text-decoration: none;
+    color: gray;
+    font-size: 13px;
+    font-weight: 600;
+}
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bolder;
+    letter-spacing: -0.2px;
+}
+h5{
+    text-transform: capitalize;
+    font-weight: 100;
+}
