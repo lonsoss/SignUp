@@ -9,23 +9,30 @@ body{
 }
 .big_box{
     width: 750px;
-    background-color: #c5206d;
-    margin: 150px auto 0;
-    border-radius: 6px 5px 5px 6px;
-    padding-bottom: 60px;
+    height: 360px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    border-radius: 5px;
+    display: flex;
+    overflow: hidden;
 }
 .box1{
     width: 50%;
-    float: left;
+    height: 100%;
     background-color: white;
     padding: 40px 35px 48px;
-    border-radius: 5px 0px 0px 5px;
 }
 .box2{
     text-align: center;
-    height: 300px;
-    padding-top: 18%;
+    width: 50%;
+    height: 100%;
     color: white;
+    background-color: #c5206d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .box2 h1,h5{
     margin-bottom: 15px;
@@ -35,7 +42,11 @@ body{
     color: white;
     border: solid 1px white;
     padding: 3px 20px 6px;
-    border-radius: 4px;
+    border-radius: 15px;
+    width: 35%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .box2 a:hover{
     background-color: white;
@@ -49,7 +60,7 @@ input:not(.checkbox, .signin){
     margin: 7px 0 10px;
 }
 input:not(.checkbox, .signin){
-    border: solid 1px #eeeeee;
+    border-style: none;
 }  
 h2{
     display: inline-flex;
@@ -72,7 +83,7 @@ img:hover{
 }
 .signin{
     background-color: #c5206d;
-    border: solid 1px #c5206d;
+    border-style: none;
     color: white;
     width: 100%;
     border-radius: 12px;
@@ -103,4 +114,10 @@ label{
 h5{
     text-transform: capitalize;
     font-weight: 100;
+}
+
+.check-and-forget{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
